@@ -243,3 +243,26 @@ html {
     padding: 8px 13px;
     padding-inline-end: 70px;
 }
+
+.search-input::placeholder { color: #999999FF; }
+
+.search-input::-webkit-search-cancel-button { display: none; }
+
+.search-submit {
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    right: -3px;
+    color: #454545FF;
+    font-size: 33px;
+    transition: 0.25s ease;
+}
+
+.search-submit:is(:hover, :focus) { color: #DEDEDEFF; }
+
+.search-close-btn {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    cursor: url("../image/close.png"), auto;
+}
