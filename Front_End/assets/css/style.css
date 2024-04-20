@@ -519,3 +519,22 @@ html {
     font-size: 1.25rem;
     margin-bottom: .5rem;
 }
+
+.home__title  {
+    font-size:  2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home__description {
+    font-size: .813rem;
+    margin-bottom: 2rem;
+}
+
+.home__social {
+    text-decoration: none;
+    position: absolute;
+    top: 9rem;
+    right: 5px;
+    display: grid;
+    row-gap: 1rem;
+}
