@@ -538,3 +538,20 @@ html {
     display: grid;
     row-gap: 1rem;
 }
+
+.home__social-link {
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 25px;
+    color: #0D0D0DFF;
+    transition: transform .4s;
+}
+
+.home__social-link:hover {
+    transform: translateY(-.25rem);
+}
+
+.home__images {
+    display: grid;
+    position: relative;
+}
