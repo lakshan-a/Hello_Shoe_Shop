@@ -729,7 +729,7 @@ html {
 }
 
 .home__title  {
-    font-size:  2.5rem;
+    font-size:  5rem;
     margin-bottom: 1rem;
 }
 
@@ -765,7 +765,8 @@ html {
 }
 
 .home__shoe {
-    width: 300px;
+    width: 285px;
+    /*width: 300px;*/
     margin-inline: auto;
 }
 
@@ -815,7 +816,7 @@ html {
         margin-inline: 0rem;
     }
     .home__title {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .home__circle {
         width: 220px;
@@ -844,20 +845,6 @@ html {
 
 /* For large devices */
 @media screen and (min-width: 1023px) {
-    /*.nav {*/
-    /*  height: calc(var(--header-height) + 2rem);*/
-    /*}*/
-    /*.nav__toggle,*/
-    /*.nav__close {*/
-    /*  display: none;*/
-    /*}*/
-    /*.nav__menu {*/
-    /*  width: initial;*/
-    /*}*/
-    /*.nav__list {*/
-    /*  flex-direction: row;*/
-    /*  column-gap: 4rem;*/
-    /*}*/
     .home__container {
         height: 100vh;
         grid-template-columns: repeat(2, 400px);
