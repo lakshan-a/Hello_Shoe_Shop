@@ -48,3 +48,23 @@ a,
 svg,
 button,
 ion-icon { display: block; }
+
+
+button{
+    background: none;
+    border: none;
+    font: inherit;
+}
+
+input,
+select,
+textarea { width: 100%; }
+
+button { cursor: pointer; }
+
+
+html {
+    /*font-family: 'Rubik', sans-serif;*/
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
