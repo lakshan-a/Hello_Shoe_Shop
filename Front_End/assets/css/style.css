@@ -598,3 +598,20 @@ html {
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 2px;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+@media screen and (max-width: 320px) {
+    .container {
+        margin-inline: 1rem;
+    }
+    .home__title {
+        font-size: 2rem;
+    }
+    .home__circle {
+        width: 220px;
+        height: 220px;
+    }
+
+}
