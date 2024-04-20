@@ -70,8 +70,7 @@ const navMenu = document.getElementById('nav-menu'),
 /**
  * SHOW MENU
  */
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
+
 if(navToggle){
     navToggle.addEventListener('click', () =>{
         navMenu.classList.add('show-menu')
