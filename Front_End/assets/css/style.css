@@ -631,3 +631,35 @@ html {
 
 }
 
+/* For large devices */
+@media screen and (min-width: 1023px) {
+    /*.nav {*/
+    /*  height: calc(var(--header-height) + 2rem);*/
+    /*}*/
+    /*.nav__toggle,*/
+    /*.nav__close {*/
+    /*  display: none;*/
+    /*}*/
+    /*.nav__menu {*/
+    /*  width: initial;*/
+    /*}*/
+    /*.nav__list {*/
+    /*  flex-direction: row;*/
+    /*  column-gap: 4rem;*/
+    /*}*/
+    .home__container {
+        height: 100vh;
+        grid-template-columns: repeat(2, 400px);
+        place-items: center;
+        column-gap: 2rem;
+    }
+    .home__data {
+        text-align: initial;
+    }
+    .home__social {
+        align-content: center;
+        top: 0;
+        bottom: 0;
+    }
+}
+
