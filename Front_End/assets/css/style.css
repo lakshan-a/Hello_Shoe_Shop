@@ -169,7 +169,7 @@ html {
 .navbar {
     position: absolute;
     top: 100%;
-    left: 50%;
+    left: 48%;
     transform: translateX(-50%);
     width: calc(100% - 30px);
     background-color: #fff;
