@@ -734,7 +734,7 @@ html {
 }
 
 .home__description {
-    font-size: .813rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -836,6 +836,9 @@ html {
     .home__data {
         text-align: center;
     }
+    .home__data .button{
+        display: inline-block;
+    }
 
 }
 
@@ -883,7 +886,7 @@ html {
         margin-bottom: 1.25rem;
     }
     .home__description {
-        font-size: 1rem;
+        font-size: 2rem;
         margin-bottom: 3rem;
     }
     .home__shoe {
@@ -901,7 +904,7 @@ html {
         row-gap: 3rem;
     }
     .home__social-link {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
 }
 
