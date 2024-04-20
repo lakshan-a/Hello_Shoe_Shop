@@ -68,3 +68,37 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
+
+
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+/* .navbar, */
+.header-btn-group .btn { display: none; }
+
+.header {
+    --color: #FFFFFFFF;
+    --btn-color: #ffffff;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 8px;
+    border-block-end: 1px solid #F1D6C633;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.header.active {
+    --color: #0D1216FF;
+    --btn-color: #0D1216FF;
+
+    position: fixed;
+    top: -86px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px #00000033;
+    animation: slideIn 0.5s ease-out forwards;
+}
