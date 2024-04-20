@@ -49,6 +49,8 @@ svg,
 button,
 ion-icon { display: block; }
 
+/*img { height: auto; }*/
+
 
 button{
     background: none;
@@ -71,6 +73,56 @@ html {
 
 
 
+
+
+
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+
+.container { padding-inline: 15px; }
+
+
+.btnMenu {
+    background-color: var(--bg-color, #FF9D2EFF);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    height:  45px;
+    padding-inline:  35px;
+    transition:  0.25s ease;
+}
+
+
+.btnMenu-hover {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btnMenu-hover::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+    width: 1px;
+    height: 1px;
+    transform: translate(-50%, 51%) scale(var(--scale, 1));
+    border-radius: 50%;
+    background-color: #0D1216FF;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.btnMenu-hover:is(:hover, :focus)::after { --scale: 500; }
+
+
+
+
+
+
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -86,7 +138,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    padding-block: 8px;
+    padding-block: 20px;
     border-block-end: 1px solid #F1D6C633;
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.06);
@@ -147,6 +199,7 @@ html {
     gap: 4px;
 }
 
+
 .line {
     width: 10px;
     height: 3px;
@@ -165,11 +218,10 @@ html {
 
 .nav-toggle-btn.active .line.bottom { transform: translate(-1px, -3px) rotate(45deg); }
 
-
 .navbar {
     position: absolute;
     top: 100%;
-    left: 48%;
+    left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 30px);
     background-color: #fff;
@@ -269,7 +321,52 @@ html {
 
 
 
+
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+.back-top-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #FF9D2EFF;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s ease;
+}
+
+.back-top-btn.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-10px);
+}
+
+.back-top-btn:is(:hover, :focus) { background-color: #0D1216FF; }
+
+
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for larger than 480px screen
+ */
+
 @media (min-width: 480px) {
+
+    /**
+     * HEADER
+     */
 
     .header-btn-group .btn {
         display: block;
@@ -278,7 +375,19 @@ html {
 
 }
 
+
+
+
+
+/**
+ * responsive for larger than 550px screen
+ */
+
 @media (min-width: 550px) {
+
+    /**
+     * REUSED STYLE
+     */
 
     .container {
         max-width: 550px;
@@ -291,17 +400,48 @@ html {
 }
 
 
+
+
+
+/**
+ * responsive for larger than 768px screen
+ */
+
 @media (min-width: 768px) {
 
+    /**
+     * REUSED STYLE
+     */
 
     .container { max-width: 720px; }
 
 
+
 }
+
+
+
+
+
+/**
+ * responsive for larger than 992px screen
+ */
 
 @media (min-width: 992px) {
 
+
+    /*!***/
+    /* * REUSED STYLE*/
+    /* *!*/
+
     .container { max-width: 960px; }
+
+
+
+
+    /**
+     * HEADER
+     */
 
     .nav-toggle-btn { display: none; }
 
@@ -328,6 +468,12 @@ html {
         font-weight: 700;
     }
 
+
+
+    /**
+     * BACK TO TOP
+     */
+
     .back-top-btn {
         bottom: 20px;
         right: 30px;
@@ -336,8 +482,21 @@ html {
 }
 
 
+
+
+
+/**
+ * responsive for larger than 1200px screen
+ */
+
 @media (min-width: 1200px) {
+
+    /**
+     * REUSED STYLE
+     */
+
     .container { max-width: 1200px; }
 
-}
 
+
+}
