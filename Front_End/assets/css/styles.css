@@ -32,7 +32,7 @@
 /*  --z-fixed: 100;*/
 /*}*/
 
-/*!*========== Responsive typography ==========*!*/
+/*/*========== Responsive typography ==========*/
 /*@media screen and (min-width: 1152px) {*/
 /*  :root {*/
 /*    --biggest-font-size: 4.5rem;*/
@@ -77,7 +77,7 @@
   margin-inline: 1.5rem;
 }
 
-/*!*=============== HEADER & NAV ===============*!*/
+/*/*=============== HEADER & NAV ===============*/
 
 /*.header {*/
 /*  position: fixed;*/
@@ -107,7 +107,7 @@
 /*  cursor: pointer;*/
 /*}*/
 
-/*!* Navigation for mobile devices *!*/
+/*/* Navigation for mobile devices */
 /*@media screen and (max-width: 1023px) {*/
 /*  .nav__menu {*/
 /*    position: fixed;*/
@@ -135,13 +135,13 @@
 /*  top: 1.125rem;*/
 /*  right: 1.5rem;*/
 /*}*/
-/*!* Show menu *!*/
+/*/* Show menu */
 /*.show-menu {*/
 /*  right: 0;*/
 
 /*}*/
 
-/*!* Add shadow header *!*/
+/*/* Add shadow header */
 /*.shadow-header {*/
 /*  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .1);*/
 /*}*/
@@ -459,18 +459,18 @@
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .container {
     margin-inline: 1rem;
   }
   .home__title {
-    font-size: 2rem;    
+    font-size: 2rem;
   }
   .home__circle {
     width: 220px;
     height: 220px;
   }
-  
+
 }
 
 /* For medium devices */
@@ -520,7 +520,7 @@
   }
 }
 
-@media screen and (min-width: 1152px) { 
+@media screen and (min-width: 1152px) {
   .container {
     margin-inline: auto;
   }
@@ -529,7 +529,7 @@
     column-gap: 4.5rem;
   }
   .home__title {
-    margin-bottom: 1.25rem;    
+    margin-bottom: 1.25rem;
   }
   .home__description {
     font-size: 1rem;
@@ -544,7 +544,7 @@
   }
 }
 
-@media screen and (min-width: 1240px) { 
+@media screen and (min-width: 1240px) {
   .home__social {
     right: -3rem;
     row-gap: 3rem;

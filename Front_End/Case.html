@@ -14,17 +14,98 @@
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
   <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="assets/css/styles.css">
+<!--  <link rel="stylesheet" href="assets/css/styles.css">-->
 
   <title>Responsive Shoe Website - Technical Mickey</title>
   <link rel="stylesheet" href="asset/css.css">
   <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="asset/css/style.css">
 </head>
 
 
 <body style="background-color: #ffe4c4">
 
 <!--==================== HEADER ====================-->
+
+<header class="header" data-header>
+    <div class="container">
+
+        <h1>
+            <a href="#" class="logo">Shoes<span class="span">.</span></a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+
+                <li class="nav-item">
+                    <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./assets/page/about.html" class="navbar-link" data-nav-link>About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./assets/page/menu.html" class="navbar-link" data-nav-link>Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./assets/page/service.html" class="navbar-link" data-nav-link>Service</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./assets/page/contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="header-btn-group">
+            <button class="search-btn" aria-label="Search" data-search-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+
+            <button class="shopping-btn" aria-label="Shopping" data-search-btn>
+                <i class='bx bx-shopping-bag' id="cart-icon" style="margin-top: 5px;"></i>
+
+                <!--        <i class="fa fa-shopping-bag"></i>-->
+            </button>
+
+            <a href="./assets/page/reservation.html" type="submit" class="btn has-before title-md">Reservation</a>
+
+
+            <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+            </button>
+        </div>
+
+    </div>
+</header>
+
+
+<!--
+  - #SEARCH BOX
+-->
+<div class="search-container" data-search-container>
+
+    <div class="search-box">
+        <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+               class="search-input">
+
+        <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+</div>
+
+
+
 <!--<header class="header" id="header">-->
 
 <!--  <nav class="nav container">-->
