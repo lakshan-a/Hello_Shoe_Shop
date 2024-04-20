@@ -164,3 +164,28 @@ html {
 .nav-toggle-btn.active .line.middle { transform: rotate(-45deg); }
 
 .nav-toggle-btn.active .line.bottom { transform: translate(-1px, -3px) rotate(45deg); }
+
+
+.navbar {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 30px);
+    background-color: #fff;
+    padding-inline: 20px;
+    box-shadow: 0 1px 4px #00000033;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.25s ease;
+}
+
+.navbar.active {
+    height: 236px;
+    visibility: visible;
+}
+
+.navbar-list { margin-block: 10px; }
+
+.nav-item:not(:last-child) { border-block-end: 1px solid rgba(255, 255, 255, 0.04); }
