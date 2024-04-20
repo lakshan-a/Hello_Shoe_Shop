@@ -1,195 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">-->
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+<!--    <link rel="stylesheet" href="assets/css/styles.css">-->
+
+    <title>Responsive Shoe Website - Technical Mickey</title>
+    <link rel="stylesheet" href="asset/css.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet" href="asset/css/swiper-bundle.min.css">
-
-    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
-
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">-->
-
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
-
-
 </head>
 
-<body>
-<!--=================================
-=           Header Section          =
-==================================-->
 
-<!--<header class="header" data-header>-->
-<!--    <div class="container">-->
+<body style="background-color: #ffe4c4">
 
-<!--        <h1>-->
-<!--            <a href="#" class="logo">Shoes<span class="span">.</span></a>-->
-<!--        </h1>-->
+<!--==================== HEADER ====================-->
 
-<!--        <nav class="navbar" data-navbar>-->
-<!--            <ul class="navbar-list">-->
+<header class="header" data-header>
+    <div class="container">
 
-<!--                <li class="nav-item">-->
-<!--                    <a href="index.html" class="navbar-link" data-nav-link>Home</a>-->
-<!--                </li>-->
+        <h1>
+            <a href="#" class="logo">Shoes<span class="span">.</span></a>
+        </h1>
 
-<!--                <li class="nav-item">-->
-<!--                    <a href="./assets/page/about.html" class="navbar-link" data-nav-link>About Us</a>-->
-<!--                </li>-->
+        <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
 
-<!--                <li class="nav-item">-->
-<!--                    <a href="./assets/page/menu.html" class="navbar-link" data-nav-link>Menu</a>-->
-<!--                </li>-->
+                <li class="nav-item">
+                    <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a href="./assets/page/service.html" class="navbar-link" data-nav-link>Service</a>-->
-<!--                </li>-->
+                <li class="nav-item">
+                    <a href="./assets/page/about.html" class="navbar-link" data-nav-link>About Us</a>
+                </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a href="./assets/page/contact.html" class="navbar-link" data-nav-link>Contact Us</a>-->
-<!--                </li>-->
+                <li class="nav-item">
+                    <a href="./assets/page/menu.html" class="navbar-link" data-nav-link>Menu</a>
+                </li>
 
-<!--            </ul>-->
-<!--        </nav>-->
+                <li class="nav-item">
+                    <a href="./assets/page/service.html" class="navbar-link" data-nav-link>Service</a>
+                </li>
 
-<!--        <div class="header-btn-group">-->
-<!--            <button class="search-btn" aria-label="Search" data-search-btn>-->
-<!--                <ion-icon name="search-outline"></ion-icon>-->
-<!--            </button>-->
+                <li class="nav-item">
+                    <a href="./assets/page/contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+                </li>
 
+            </ul>
+        </nav>
 
-<!--            <button class="shopping-btn" aria-label="Shopping" data-search-btn>-->
-<!--                <i class='bx bx-shopping-bag' id="cart-icon" style="margin-top: 5px;"></i>-->
-
-<!--                &lt;!&ndash;        <i class="fa fa-shopping-bag"></i>&ndash;&gt;-->
-<!--            </button>-->
-
-<!--            <a href="./assets/page/reservation.html" type="submit" class="btn has-before title-md">Reservation</a>-->
+        <div class="header-btn-group">
+            <button class="search-btn" aria-label="Search" data-search-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
 
 
-<!--            <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>-->
-<!--                <span class="line top"></span>-->
-<!--                <span class="line middle"></span>-->
-<!--                <span class="line bottom"></span>-->
-<!--            </button>-->
-<!--        </div>-->
+            <button class="shopping-btn" aria-label="Shopping" data-search-btn>
+                <i class='bx bx-shopping-bag' id="cart-icon" style="margin-top: 5px;"></i>
 
-<!--    </div>-->
-<!--</header>-->
+                <!--        <i class="fa fa-shopping-bag"></i>-->
+            </button>
+
+            <a href="./assets/page/reservation.html" type="submit" class="btn has-before title-md">Reservation</a>
 
 
-<!--&lt;!&ndash;-->
-<!--  - #SEARCH BOX-->
-<!--&ndash;&gt;-->
-<!--<div class="search-container" data-search-container>-->
-
-<!--    <div class="search-box">-->
-<!--        <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."-->
-<!--               class="search-input">-->
-
-<!--        <button class="search-submit" aria-label="Submit search" data-search-submit-btn>-->
-<!--            <ion-icon name="search-outline"></ion-icon>-->
-<!--        </button>-->
-<!--    </div>-->
-
-<!--    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>-->
-
-<!--</div>-->
-
-
-<!--==============End of Header Section==============-->
-
-<main>
-<!--=================================
-=           Home Section            =
-==================================-->
-<section class="home">
-    <div class="home__container container">
-        <div class="home__data">
-            <h2 class="home__subtitle">NIKE</h2>
-            <h1 class="home__title">
-                LUPINEK<br>
-                FLYKNIT<br>
-                ACG
-            </h1>
-            <p class="home__description">
-                Designed to withstand the rigors of adverse
-                conditions, the Nike ACC Flyknit Lupinek combines
-                flyknit, Flywire and a water-resistant Defender
-                Repellent system in the upper.
-            </p>
-            <!--        <div class="container">-->
-
-
-            <a href="#" class="button type--B">
-                <div class="button__line"></div>
-                <div class="button__line"></div>
-                <span class="button__text">Buy Now</span>
-                <div class="button__drow1"></div>
-                <div class="button__drow2"></div>
-            </a>
-
-
-            <!--        </div>-->
+            <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+            </button>
         </div>
-        <div class="home__images">
-            <div class="home__circle"></div>
-            <div class="home__swiper swiper">
-                <div class="swiper-wrapper">
-                    <article class="home__article swiper-slide">
-                        <img src="asset/img/shoe-1.png" alt="" class="home__shoe">
-                    </article>
-                    <article class="home__article swiper-slide">
-                        <img src="asset/img/shoe-2.png" alt="" class="home__shoe">
-                    </article>
-                    <article class="home__article swiper-slide">
-                        <img src="asset/img/shoe-4.png" alt="" class="home__shoe">
-                    </article>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
 
-        </div>
-        <div class="home__social">
-            <a href="#" target="_blank" class="home__social-link">
-                <i class="ri-facebook-circle-fill"></i>
-            </a>
-            <a href="#" target="_blank" class="home__social-link">
-                <i class="ri-instagram-fill"></i>
-            </a>
-            <a href="#" target="_blank" class="home__social-link">
-                <i class="ri-youtube-fill"></i>
-            </a>
-        </div>
+    </div>
+</header>
+
+
+<!--
+  - #SEARCH BOX
+-->
+<div class="search-container" data-search-container>
+
+    <div class="search-box">
+        <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+               class="search-input">
+
+        <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
     </div>
 
-</section>
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
 
-<!--==============End of Home Section==============-->
+</div>
 
+
+
+<!--<header class="header" id="header">-->
+
+<!--  <nav class="nav container">-->
+<!--    <a href="#" class="nav__logo">-->
+<!--      <img src="assets/img/logo.svg" alt="">-->
+<!--    </a>-->
+
+<!--    <div class="nav__menu" id="nav-menu">-->
+<!--      <ul class="nav__list">-->
+<!--        <li class="nav__item">-->
+<!--          <a href="#" class="nav__link">Men</a>-->
+<!--        </li>-->
+
+<!--        <li class="nav__item">-->
+<!--          <a href="#" class="nav__link">Women</a>-->
+<!--        </li>-->
+
+<!--        <li class="nav__item">-->
+<!--          <a href="#" class="nav__link">Popular</a>-->
+<!--        </li>-->
+
+<!--        <li class="nav__item">-->
+<!--          <a href="#" class="nav__link">Trend</a>-->
+<!--        </li>-->
+<!--      </ul>-->
+
+<!--      &lt;!&ndash; Close Button &ndash;&gt;-->
+
+<!--      <div class="nav__close" id="nav-close">-->
+<!--        <i class="ri-close-line"></i>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash; Toggle Button &ndash;&gt;-->
+<!--    <div class="nav__toggle" id="nav-toggle">-->
+<!--      <i class="ri-apps-2-fill"></i>-->
+<!--    </div>-->
+<!--  </nav>-->
+
+<!--</header>-->
+
+<!--==================== MAIN ====================-->
+<main>
+    <!--==================== HOME ====================-->
+    <section class="home">
+        <div class="home__container container">
+            <div class="home__data">
+                <h2 class="home__subtitle">NIKE</h2>
+                <h1 class="home__title">
+                    LUPINEK<br>
+                    FLYKNIT<br>
+                    ACG
+                </h1>
+                <p class="home__description">
+                    Designed to withstand the rigors of adverse
+                    conditions, the Nike ACC Flyknit Lupinek combines
+                    flyknit, Flywire and a water-resistant Defender
+                    Repellent system in the upper.
+                </p>
+                <!--        <div class="container">-->
+
+
+                <a href="#" class="button type--B">
+                    <div class="button__line"></div>
+                    <div class="button__line"></div>
+                    <span class="button__text">Buy Now</span>
+                    <div class="button__drow1"></div>
+                    <div class="button__drow2"></div>
+                </a>
+
+
+                <!--        </div>-->
+            </div>
+            <div class="home__images">
+                <div class="home__circle"></div>
+                <div class="home__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                            <img src="assets/img/shoe-1.png" alt="" class="home__shoe">
+                        </article>
+                        <article class="home__article swiper-slide">
+                            <img src="assets/img/shoe-2.png" alt="" class="home__shoe">
+                        </article>
+                        <article class="home__article swiper-slide">
+                            <img src="assets/img/shoe-4.png" alt="" class="home__shoe">
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            <div class="home__social">
+                <a href="#" target="_blank" class="home__social-link">
+                    <i class="ri-facebook-circle-fill"></i>
+                </a>
+                <a href="#" target="_blank" class="home__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="#" target="_blank" class="home__social-link">
+                    <i class="ri-youtube-fill"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
 </main>
 
-<!-- Template Javascript -->
-<!--<script src="asset/js/js.js"></script>-->
-<script src="asset/js/main.js"></script>
-<script src="asset/js/swiper-bundle.min.js"></script>
+<!--=============== SWIPER JS ===============-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/js.js"></script>
+
 
 
 </body>
-
 </html>
