@@ -127,3 +127,23 @@ html {
     color: #FF9D2EFF;
 }
 
+.header-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-btn,
+.shopping-btn{
+    color: var(--btn-color);
+    font-size: 20px;
+}
+
+.search-btn,
+.shopping-btn ion-icon { --ionicon-stroke-width: 50px; }
+
+.nav-toggle-btn {
+    display: grid;
+    gap: 4px;
+}
+
