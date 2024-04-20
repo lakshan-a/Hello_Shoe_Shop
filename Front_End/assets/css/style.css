@@ -555,3 +555,21 @@ html {
     display: grid;
     position: relative;
 }
+
+.home__shoe {
+    width: 300px;
+    margin-inline: auto;
+}
+
+.home__circle {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 0%, 96%));
+    border-radius: 50%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+}
