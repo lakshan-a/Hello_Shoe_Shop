@@ -224,3 +224,22 @@ html {
     opacity: 0;
     transition: 0.5s ease;
 }
+
+.search-container.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(50%);
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-input {
+    color:#DEDEDEFF;
+    font-size: 18px;
+    padding: 8px 13px;
+    padding-inline-end: 70px;
+}
