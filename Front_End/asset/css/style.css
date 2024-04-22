@@ -1078,6 +1078,23 @@ html {
     display: flex;
 }
 
+.size__tallas {
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.size__tallas.active {
+    background-color: #A29596FF;
+    color: #fff;
+}
+
+
 .product .popup-card .info .price{
     font-size: 45px;
     font-weight: 300;
