@@ -916,3 +916,21 @@ html {
     visibility: visible;
     opacity: 1;
 }
+
+.shoes_menu .list-unstyled .ri-heart-fill{
+    font-size: inherit;
+}
+
+@media (max-width: 768px) {
+    .shoes_menu{
+        padding: 60px 30px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .shoes_menu{
+        padding: 60px 15px;
+    }
+
+}
