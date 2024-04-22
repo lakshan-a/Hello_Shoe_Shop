@@ -1066,6 +1066,18 @@ html {
     margin: 10px;
 }
 
+.size{
+    padding: 10px 10px;
+}
+.size__title {
+    font-size: 14px;
+    margin-top: 7px;
+    margin-right: 12px;
+}
+.size__content {
+    display: flex;
+}
+
 .product .popup-card .info .price{
     font-size: 45px;
     font-weight: 300;
