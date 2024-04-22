@@ -900,3 +900,18 @@ html {
 /*-----------------------------------
          Shoes menu section
 -----------------------------------*/
+
+.shoes_menu{
+    /*background: #fff;*/
+    padding: 60px;
+}
+
+.product .product-card{
+    z-index: 1;
+    background: #414141;
+    position: relative;
+    /*width: 300px;*/
+    height: 400px;
+    margin: 40px;
+    border-radius: 10px;
+}
