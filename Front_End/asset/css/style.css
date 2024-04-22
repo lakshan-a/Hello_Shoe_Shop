@@ -1005,3 +1005,25 @@ html {
     height: 500px;
     margin: 20px;
 }
+
+.product .popup-card .product-img{
+    z-index: 2;
+    background: #414141;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 90%;
+    transform: translateY(25px);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.product .popup-card .product-img img{
+    z-index: 2;
+    position: relative;
+    width: 450px;
+    left: -50px;
+}
+
