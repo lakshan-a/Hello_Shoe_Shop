@@ -1027,3 +1027,25 @@ html {
     left: -50px;
 }
 
+.product .popup-card .info{
+    z-index: 2;
+    background: #fff;
+    display: flex;
+    flex-direction:column;
+    width: 55%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.product .popup-card .close-btn{
+    color: #555;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
