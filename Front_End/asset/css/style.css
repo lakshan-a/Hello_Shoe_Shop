@@ -290,7 +290,7 @@ html {
 }
 
 .search-input {
-    color:#DEDEDEFF;
+    color: #000000;
     font-size: 18px;
     padding: 8px 13px;
     padding-inline-end: 70px;
@@ -316,7 +316,7 @@ html {
     position: absolute;
     inset: 0;
     z-index: -1;
-    cursor: url("../image/close.png"), auto;
+    cursor: url("../img/close.png"),alias;
 }
 
 
