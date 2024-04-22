@@ -915,3 +915,27 @@ html {
     margin: 40px;
     border-radius: 10px;
 }
+
+.product .product-card:before{
+    content: "";
+    background: rgba(255,255,255,0.1);
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.product .product-card .product-img{
+    z-index: 1;
+    position: absolute;
+    max-width: 350px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
