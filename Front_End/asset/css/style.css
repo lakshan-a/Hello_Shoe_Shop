@@ -1173,5 +1173,15 @@ html {
         font-size: 14px;
     }
 
+    .product .popup-card .info .add-wish{
+        font-size: 14px;
+    }
+
+    .product .popup-card .close-btn{
+        z-index: 4;
+    }
+}
+
+
 
 
