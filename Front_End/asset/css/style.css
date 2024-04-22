@@ -1104,3 +1104,17 @@ html {
     }
 }
 
+@media (max-width: 510px) {
+    .product .product-card {
+        margin: 20px -40px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 400px) {
+    .product .product-card .product-img {
+        max-width: 270px;
+    }
+}
+
+
