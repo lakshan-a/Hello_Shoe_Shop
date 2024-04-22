@@ -1153,5 +1153,25 @@ html {
         font-size: 25px;
     }
 
+    .product .popup-card .info h2 span{
+        font-size: 10px;
+    }
+
+    .product .popup-card .info p{
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .product .popup-card .info .price{
+        margin: 5px;
+        font-size: 30px;
+    }
+
+    .product .popup-card .info .add-cart-btn{
+        margin: 5px auto;
+        padding: 5px 40px;
+        font-size: 14px;
+    }
+
 
 
