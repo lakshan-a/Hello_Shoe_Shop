@@ -1134,5 +1134,24 @@ html {
         border-top-right-radius: 10px;
     }
 
+    .product .popup-card .product-img img{
+        left: initial;
+        max-width: 100%;
+        width: 375px;
+    }
+
+    .product .popup-card .info{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .product .popup-card .info h2{
+        margin: 20px 5px 5px 5px;
+        font-size: 25px;
+    }
+
 
 
