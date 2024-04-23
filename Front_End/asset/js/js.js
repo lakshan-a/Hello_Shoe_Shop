@@ -165,3 +165,5 @@ function changeSize(){
     this.classList.add('active');
 }
 sizes.forEach(size => size.addEventListener('click', changeSize));
+
+
