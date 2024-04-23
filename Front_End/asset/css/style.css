@@ -1321,3 +1321,16 @@ form.sign-up-form {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.sing-btn:hover {
+    background: #c03cc0;
+}
+
+.social-text {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
