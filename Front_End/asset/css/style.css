@@ -1271,3 +1271,13 @@ form.sign-in-form {
     transition: 0.5s ease-in-out;
     transition-delay: 1s;
 }
+form.sign-up-form {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    transition-delay: 1s;
+}
+.title {
+    font-size: 35px;
+    color: #df4adf;
+    margin-bottom: 10px;
+}
