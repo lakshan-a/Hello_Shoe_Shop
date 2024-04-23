@@ -1455,3 +1455,23 @@ a {
         display: flex;
         opacity: 1;
     }
+    .login-container.sign-up-mode2 form.sign-in-form {
+        display: none;
+    }
+    .panels-container {
+        display: none;
+    }
+    .account-text {
+        display: initial;
+        margin-top: 30px;
+    }
+    .sing-account-btn{
+        text-align: center;
+        color: #df4adf;
+    }
+}
+@media (max-width:320px) {
+    form {
+        width: 90%;
+    }
+}
