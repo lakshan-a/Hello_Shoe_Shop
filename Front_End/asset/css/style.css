@@ -1434,3 +1434,24 @@ a {
 .login-container.sign-up-mode .left-panel {
     pointer-events: all;
 }
+
+@media (max-width:779px) {
+    .login-container {
+        width: 90vw;
+        height: 93vh;
+    }
+}
+@media (max-width:635px) {
+    .login-container::before {
+        position: relative;
+    }
+    form {
+        width: 80%;
+    }
+    form.sign-up-form {
+        display: none;
+    }
+    .login-container.sign-up-mode2 form.sign-up-form {
+        display: flex;
+        opacity: 1;
+    }
