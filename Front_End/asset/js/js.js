@@ -31,10 +31,10 @@ const backTopBtn = document.querySelector("[data-back-top-btn]");
 window.addEventListener("scroll", function () {
     if (window.scrollY >= 100) {
         header.classList.add("active");
-        backTopBtn.classList.add("active");
+        // backTopBtn.classList.add("active");
     } else {
         header.classList.remove("active");
-        backTopBtn.classList.remove("active");
+        // backTopBtn.classList.remove("active");
     }
 });
 
@@ -153,3 +153,15 @@ closeBtns.forEach((closeBtn) => {
         });
     });
 });
+
+
+/**
+ * Shoe Menu Sizes
+ */
+const sizes = document.querySelectorAll('.size__tallas');
+
+function changeSize(){
+    sizes.forEach(size => size.classList.remove('active'));
+    this.classList.add('active');
+}
+sizes.forEach(size => size.addEventListener('click', changeSize));
