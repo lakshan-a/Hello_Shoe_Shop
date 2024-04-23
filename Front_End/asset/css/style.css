@@ -1409,3 +1409,18 @@ a {
 .account-text {
     display: none;
 }
+
+.login-container.sign-up-mode::before {
+    transform: translateX(0);
+}
+.login-container.sign-up-mode .right-panel .image,
+.login-container.sign-up-mode .right-panel .content {
+    transform: translateX(200%);
+}
+.login-container.sign-up-mode .left-panel .image,
+.login-container.sign-up-mode .left-panel .content {
+    transform: translateX(0);
+}
+.login-container.sign-up-mode form.sign-in-form {
+    opacity: 0;
+}
