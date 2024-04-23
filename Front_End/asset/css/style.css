@@ -1334,3 +1334,22 @@ form.sign-up-form {
     display: flex;
     justify-content: center;
 }
+
+.social-icon {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+a {
+    text-decoration: none;
+}
+.social-icon:hover {
+    color: #df4adf;
+    border-color: #df4adf;
+}
