@@ -1424,3 +1424,13 @@ a {
 .login-container.sign-up-mode form.sign-in-form {
     opacity: 0;
 }
+
+.login-container.sign-up-mode form.sign-up-form {
+    opacity: 1;
+}
+.login-container.sign-up-mode .right-panel {
+    pointer-events: none;
+}
+.login-container.sign-up-mode .left-panel {
+    pointer-events: all;
+}
